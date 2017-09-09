@@ -1,0 +1,48 @@
+[
+    {
+        "name":"Hattie B's",
+        "type": "Hot Chicken",
+        "notes": "",
+        "pat_approved": false,
+        "has_booze": true,
+        "money": "$$",
+        "menu_url": ""
+    },
+    {
+        "name":"Jack Brown's",
+        "type":"Burgers and Beer",
+        "notes": "",
+        "pat_approved": true,
+        "has_booze": true,
+        "money": "$$",
+        "menu_url": ""
+    },
+    {
+        "name":"Smokin' Thighs",
+        "type":"Barbeque",
+        "notes": "They only serve thigh meat.",
+        "pat_approved": false,
+        "has_booze": true,
+        "money": "$$",
+        "menu_url": ""
+    },
+    {
+        "name":"Party Fowl",
+        "type":"Chicken",
+        "notes": "",
+        "pat_approved": false,
+        "has_booze": true,
+        "money": "$$",
+        "menu_url": ""
+    },
+    {
+        "name":"San Antonio Taco Company (SATCO)",
+        "type":"Mexican",
+        "notes": "",
+        "pat_approved": false,
+        "has_booze": true,
+        "money": "$",
+        "menu_url": ""
+    }
+
+]
