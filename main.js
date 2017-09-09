@@ -6,7 +6,7 @@
 $("#shuffle-btn").on('click', function(event) {
         console.log("Hello");
 
-    $.getJSON("json/food.json", function(restaurants, status){
+    $.getJSON("values/food.json", function(restaurants, status){
 
 
         for(var i = 0; i < restaurants.length; i++){
@@ -17,8 +17,11 @@ $("#shuffle-btn").on('click', function(event) {
 
         console.log("MONEY: ", random_rest_obj.money);
 
-        var money_string = random_rest_obj.money;
         var booze_string = "No Booze";
+        var money_string = random_rest_obj.money;
+        var menu_link_string = random_rest_obj.menu_url;
+
+
 
         if (random_rest_obj.has_booze){
             booze_string = "Has Booze";
@@ -30,6 +33,9 @@ $("#shuffle-btn").on('click', function(event) {
 
         if (random_rest_obj.pat_approved == true){
             random_rest_string +=  `<p class="flow-text"><strong>BONUS: </strong>Pat Approved!</p>`;
+        }
+        if (random_rest_obj.menu_url != ""){
+            random_rest_string += `<img class="" src="${menu_link_string}">Menu</a>`;
         }
 
 
