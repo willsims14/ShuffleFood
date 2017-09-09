@@ -8,6 +8,8 @@ $("#shuffle-btn").on('click', function(event) {
 
     $.getJSON("values/food.json", function(restaurants, status){
 
+        $("#welcome").hide();
+
 
         for(var i = 0; i < restaurants.length; i++){
             console.log(restaurants[i]);
