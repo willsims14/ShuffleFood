@@ -6,7 +6,10 @@
         "pat_approved": false,
         "has_booze": true,
         "money": "$$",
-        "menu_url": ""
+        "menu_url":"",
+        "menu_img": "",
+        "menu_img_2": "",
+        "website":""
     },
     {
         "name":"Jack Brown's",
@@ -15,7 +18,10 @@
         "pat_approved": true,
         "has_booze": true,
         "money": "$$",
-        "menu_url": ""
+        "menu_url":"",
+        "menu_img": "",
+        "menu_img_2": "",
+        "website":""
     },
     {
         "name":"Smokin' Thighs",
@@ -24,7 +30,10 @@
         "pat_approved": false,
         "has_booze": true,
         "money": "$$",
-        "menu_url":"values/img/FRONT_smokin_thighs.jpeg"
+        "menu_url":"",
+        "menu_img":"values/img/FRONT_smokin_thighs.jpeg",
+        "menu_img_2": "values/img/BACK_smokin_thighs.jpeg",
+        "website":""
     },
     {
         "name":"Party Fowl",
@@ -33,7 +42,10 @@
         "pat_approved": false,
         "has_booze": true,
         "money": "$$",
-        "menu_url": ""
+        "menu_url": "http://partyfowlnashville.com/menu/",
+        "menu_img": "",
+        "menu_img_2": "",
+        "website":"http://partyfowlnashville.com/"
     },
     {
         "name":"San Antonio Taco Company (SATCO)",
@@ -42,7 +54,22 @@
         "pat_approved": false,
         "has_booze": true,
         "money": "$",
-        "menu_url": ""
+        "menu_url":"http://www.thesatco.com/san-antonio-taco-company-fresh-tex-mex-menu.cfm",
+        "menu_img": "",
+        "menu_img_2": "",
+        "website":""
+    },
+    {
+        "name":"TN Brew Works",
+        "type":"",
+        "notes": "",
+        "pat_approved": false,
+        "has_booze": true,
+        "money": "$",
+        "menu_url":"",
+        "menu_img": "values/img/tn_brew_menu.png",
+        "menu_img_2": "values/img/tn_brew_beers.png",
+        "website":"https://www.tnbrew.com/"
     }
 
 ]

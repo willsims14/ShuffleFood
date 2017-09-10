@@ -21,7 +21,9 @@ $("#shuffle-btn").on('click', function(event) {
 
         var booze_string = "No Booze";
         var money_string = random_rest_obj.money;
-        var menu_link_string = random_rest_obj.menu_url;
+        var menu_link_string_1 = random_rest_obj.menu_img;
+        var menu_link_string_2 = random_rest_obj.menu_img_2;
+
 
 
 
@@ -30,15 +32,28 @@ $("#shuffle-btn").on('click', function(event) {
         }
 
         var random_rest_string =    `<h2 class="lead">${random_rest_obj.name}</h2>
-                                     <p class="flow-text">${booze_string}</p>
-                                     <p class="flow-text">${money_string}</p>`;
+                                     <p class="flow-text">${money_string}</p>
+                                     <p class="flow-text">${booze_string}</p>`;
 
         if (random_rest_obj.pat_approved == true){
             random_rest_string +=  `<p class="flow-text"><strong>BONUS: </strong>Pat Approved!</p>`;
         }
+
         if (random_rest_obj.menu_url != ""){
-            random_rest_string += `<img class="" src="${menu_link_string}">Menu</a>`;
+            random_rest_string += `<a href="${random_rest_obj.menu_url}">View Menu</a>`;
         }
+
+
+        if(menu_link_string_1 != "" && menu_link_string_2 != ""){
+            random_rest_string += `  <div class="row center">
+                                    <img class="col s6" src="${menu_link_string_1}"></a>
+                                    <img class="col s6" src="${menu_link_string_2}"></a>
+                                    </div>`;
+
+        }else if(menu_link_string_1 != ""){
+            random_rest_string += `<img class="col s6" src="${menu_link_string_1}"></a>`;
+        }
+
 
 
         $("#random_rest_container").html(random_rest_string);
