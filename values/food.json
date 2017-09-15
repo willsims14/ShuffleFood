@@ -7,6 +7,7 @@
         "has_booze": true,
         "money": "$$",
         "menu_url":"",
+        "menu_url_2":"",
         "menu_img": "",
         "menu_img_2": "",
         "website":""
@@ -19,6 +20,7 @@
         "has_booze": true,
         "money": "$$",
         "menu_url":"",
+        "menu_url_2":"",
         "menu_img": "",
         "menu_img_2": "",
         "website":""
@@ -31,6 +33,7 @@
         "has_booze": true,
         "money": "$$",
         "menu_url":"",
+        "menu_url_2":"",
         "menu_img":"values/img/FRONT_smokin_thighs.jpeg",
         "menu_img_2": "values/img/BACK_smokin_thighs.jpeg",
         "website":""
@@ -43,6 +46,7 @@
         "has_booze": true,
         "money": "$$",
         "menu_url": "http://partyfowlnashville.com/menu/",
+        "menu_url_2":"",
         "menu_img": "",
         "menu_img_2": "",
         "website":"http://partyfowlnashville.com/"
@@ -55,21 +59,62 @@
         "has_booze": true,
         "money": "$",
         "menu_url":"http://www.thesatco.com/san-antonio-taco-company-fresh-tex-mex-menu.cfm",
+        "menu_url_2":"",
         "menu_img": "",
         "menu_img_2": "",
         "website":""
     },
     {
         "name":"TN Brew Works",
-        "type":"",
+        "type":"Trendy",
         "notes": "",
         "pat_approved": false,
         "has_booze": true,
-        "money": "$",
+        "money": "$$",
         "menu_url":"",
+        "menu_url_2":"",
         "menu_img": "values/img/tn_brew_menu.png",
         "menu_img_2": "values/img/tn_brew_beers.png",
         "website":"https://www.tnbrew.com/"
+    },
+    {
+        "name":"Gabby's Burgers and Fries",
+        "type":"Burgers",
+        "notes": "",
+        "pat_approved": false,
+        "has_booze": false,
+        "money": "$",
+        "menu_url":"http://gabbysburgersandfries.com/menu/",
+        "menu_url_2":"",
+        "menu_img": "",
+        "menu_img_2": "",
+        "website":"http://gabbysburgersandfries.com/"
+    },
+    {
+        "name":"Athens Family Restaurant",
+        "type":"Greek Food",
+        "notes": "",
+        "pat_approved": false,
+        "has_booze": false,
+        "money": "$",
+        "menu_url":"http://www.athensfamilyrestaurant.com/?pg=dinner",
+        "menu_url_2":"http://www.athensfamilyrestaurant.com/?pg=lunch",
+        "menu_img": "",
+        "menu_img_2": "",
+        "website":"http://www.athensfamilyrestaurant.com/"
+    },
+    {
+        "name":"M.L. Rose",
+        "type":"Burgers & Beer",
+        "notes": "",
+        "pat_approved": false,
+        "has_booze": false,
+        "money": "$$",
+        "menu_url":"",
+        "menu_url_2":"",
+        "menu_img": "values/img/ml_rose.png",
+        "menu_img_2": "",
+        "website":"https://mlrose.com/"
     }
 
 ]

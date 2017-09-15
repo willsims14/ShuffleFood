@@ -8,3 +8,9 @@
 #welcome{
     margin-top: 10%;
 }
+
+
+.my_image{
+	max-width: 1000px;
+	max-height: 1500px;
+}
